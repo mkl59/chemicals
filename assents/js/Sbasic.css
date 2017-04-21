@@ -1,0 +1,17 @@
+﻿.error_input{
+	border-color:#D31E2B !important;
+    border: 1px solid #D31E2B !important;
+	}
+
+.error-form, .success-form {
+display:none;
+}
+
+.myButton { 
+    background:url( ../../img/send.html) center no-repeat;
+    cursor:pointer;
+    width: 183px;
+    height: 42px;
+    border: none;
+    color: transparent;
+}

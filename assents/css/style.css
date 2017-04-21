@@ -1,0 +1,82 @@
+﻿/* 
+	jQuery Logo Slider Ticker 
+	by http://webdesignandsuch.com
+	build with code from http://bxslider.com
+*/
+
+
+#slider {
+	list-style:none;
+	padding:0px
+}
+
+.slider-container { 
+	/*background:#222;*/ 
+	width:100%; 
+	height:150px; 
+	padding:20px; 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px; 
+}
+
+#slider img { 
+	width:200px; 
+	height:125px; 
+	margin:0px; 
+	display:inline-block  
+}
+
+#slider li {
+	width:210px
+}
+
+.bx-wrapper  {
+   width:100% !important
+}
+
+.bx-window {
+     width:100% !important
+}
+
+div#productSlide{
+	width:100%;
+	height:90px;
+	background:#FFFFFF;
+	padding-top:15px;
+	margin-bottom:20px;
+	border-top:2px solid #eaeae2;
+	border-bottom:2px solid #eaeae2;
+}
+div.productSlide{
+	width:930px!important;
+	margin-left:20px;
+}
+div.productSlide li img {
+	width:100px;
+}
+a.prev-productSlide{
+	width:18px;
+	height:43px;
+	background:url('icons/product-slide-buttons.html') no-repeat left top;
+	margin:20px 0px 0px -35px;
+	position:absolute;
+	z-index:10;
+}
+
+a.prev-productSlide:hover{background-position:left bottom;}
+a.next-productSlide:hover{background-position:right bottom;}
+
+a.next-productSlide{
+	width:18px;
+	height:43px;
+	background:url('icons/product-slide-buttons.html') no-repeat right top;
+	margin:20px 0px 0px 980px;
+	position:absolute;
+	z-index:10;
+}
+
+
+
+
+
